@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+	<head>
+
+		<title>Exercice sur les boucles for</title>
+
+		<meta charset="UTF-8"/>
+
+		<script>
+
+			
+		function boucle()
+		{
+			var tab1 = new Array(3);
+			for(i=0; i<tab1.length; i++)
+			{
+				tab1[i] = Math.pow(i,2);
+			}
+			alert(tab1);
+		}
+		
+		function boucle2()
+		{
+			var long = prompt("Entrez la longueur du tableau: ");
+			var tab2 = new Array(Number(long));
+			for(i=0; i<tab2.length; i++)
+			{
+				tab2[i] = Math.pow(i,2);
+			}
+			alert(tab2);
+		}
+			
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<h1>Boucles for</h1>
+
+		
+
+		<button onclick="boucle()">Cliquez-moi!</button>
+
+		<button onclick="boucle2()">Cliquez-moi aussi!</button>
+
+	</body>
+
+</html>

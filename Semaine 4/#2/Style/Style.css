@@ -1,0 +1,36 @@
+﻿.button:hover 
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button
+{
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	padding: 10px 27px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	cursor : pointer;
+	margin: 5px;
+	width: 75px;
+}
+
+#in
+{
+	padding: 10px;
+	font-size: 25px;
+	width: 500px;
+}
+
+#bt
+{
+	margin-left: 100px;
+	text-align: center;
+}
+
+.buttonClr
+{
+	width: 165px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title > Calculatrice </title>
+		<link rel="stylesheet" type="text/css" href="Style/Style.css"/>
+	</head>
+	
+	<body onload="showPic()">
+		
+		<section id = "bt">
+			<input id = "in" type ="text"></input>
+			<button class="button buttonEquals" onclick = "Equals()">=</button><br/>
+			<button class="button button0" onclick = "TextEnter('0')">0</button>
+			<button class="button buttonClr" onclick = "Clear()">Clear</button>
+			<button class="button button+" onclick = "TextEnter('+')">+</button><br/>
+			<button class="button button1" onclick = "TextEnter('1')">1</button>
+			<button class="button button2" onclick = "TextEnter('2')">2</button>
+			<button class="button button3" onclick = "TextEnter('3')">3</button>
+			<button class="button button-" onclick = "TextEnter('-')">-</button><br/>
+			<button class="button button4" onclick = "TextEnter('4')">4</button>
+			<button class="button button5" onclick = "TextEnter('5')">5</button>
+			<button class="button button6" onclick = "TextEnter('6')">6</button>
+			<button class="button button*" onclick = "TextEnter('*')">*</button><br/>
+			<button class="button button7" onclick = "TextEnter('7')">7</button>
+			<button class="button button8" onclick = "TextEnter('8')">8</button>
+			<button class="button button9" onclick = "TextEnter('9')">9</button>
+			<button class="button button/" onclick = "TextEnter('/')">/</button>
+		</section>
+	</body>
+	<script src = "JS/Calcul.js"></script>
+</html>
